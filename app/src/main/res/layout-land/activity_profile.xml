@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="org.esiea.mehrenberger_lestrille.myapp.ProfileActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:text="Phone:"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_toStartOf="@+id/textView9"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4" />
+
+    <include android:id="@+id/my_toolbar"
+        layout="@layout/app_bar"
+        android:layout_below="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_marginTop="37dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:text="Email: "
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/camera"
+        android:layout_toStartOf="@+id/camera" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:text="Address:"
+        android:layout_below="@+id/editText10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/button2"
+        android:layout_toLeftOf="@+id/button2" />
+
+    <TextView
+        android:text=" 74 Avenue Maurice Thorez Ivry-Sur-Seine 94200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/editText10"
+        android:layout_toRightOf="@+id/editText5"
+        android:layout_toEndOf="@+id/editText5"
+        android:layout_above="@+id/textView6"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/location_on"
+        android:textColor="#000000"
+        android:padding="3dip"
+        android:gravity="center"
+
+        android:layout_below="@+id/editText5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@color/colorDivider"
+        android:id="@+id/imageView"
+        android:minHeight="119dp"
+        android:minWidth="100dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="47dp"
+        android:layout_marginEnd="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=" Password:"
+        android:ems="10"
+        android:id="@+id/TextView7"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/editText6"
+        android:layout_alignBottom="@+id/editText6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="left"
+        android:layout_toStartOf="@+id/editText6"
+        android:layout_toLeftOf="@+id/editText6" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:text="Password:"
+        android:layout_below="@+id/editText11"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Username: ProfilTest "
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:layout_marginTop="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText4"
+        android:layout_alignEnd="@+id/editText4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="50dip"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="4dip"
+        android:background="@mipmap/ic_btn_left"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6"></Button>
+
+    <Button
+        android:text="Capture Image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/camera"
+        android:onClick="dispatchTakePictureIntent"
+        android:layout_above="@+id/textView9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="33dp"
+        android:layout_marginEnd="33dp" />
+
+</RelativeLayout>

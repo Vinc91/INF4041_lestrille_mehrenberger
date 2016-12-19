@@ -1,0 +1,45 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryLight"
+
+    tools:context="org.esiea.mehrenberger_lestrille.myapp.NavigationDrawerFragment">
+
+
+    <android.support.v7.widget.RecyclerView
+        app:theme="@style/AppTheme"
+        android:id="@+id/rev_biere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/containerDrawerImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="49dp" />
+
+    <LinearLayout
+            android:id="@+id/containerDrawerImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp">
+
+
+        <ImageView
+                android:id="@+id/drawerImage"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/ic_beermenu"
+                android:layout_width="280dp"
+                android:layout_height="140dp"
+                android:layout_marginBottom="16dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

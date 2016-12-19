@@ -1,0 +1,64 @@
+<resources>
+    //Titles-AppBar
+    <string name="app_name">Malt Tavern</string>
+    <string name="dispo">Available Beers!</string>
+    <string name="action_settings">Settings</string>
+    <string name="buttonDate">Set Date</string>
+    <string name="msg_pay">Your bill !</string>
+    <string name="msg_cancel">Cancellation</string>
+    <string name="next" />
+    <string name="drawer_open">open</string>string>
+    <string name="drawer_close">close</string>
+
+    <string name="title_second_class">Purchasing</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="title_web_activity">WebView</string>
+    <string name="title_help_activity">Help</string>
+    <string name="title_top5">Top 5 Products </string>
+    <string name="title_best">Trending Products </string>
+    <string name="title_geoloc">Géolocation </string>
+
+    //NavigationDrawerFragment Menu glissant
+    <string name="Best">Top Sellers</string>
+    <string name="Geoloc">Home Delivery</string>
+    <string name="Subscribe">Subscribe</string>
+    <string name="Share">Share</string>
+    <string name="helpFaq">Help/FAQ</string>
+
+    //RecyclerView
+    <string name="noSupply">beer unavailable</string>
+    <string name="supply">beer available</string>
+    <string name="noSupply_lg_click">We do not have stock for this item. Sorry..</string>
+    <string name="addedMessage">added to your shopping cart !</string>
+    <string name="addMessage">Add to your shopping cart ?</string>
+    <string name="action_search">Search</string>
+    <string name="button_order">Order Products</string>
+
+    //Help Menu
+    <string name="helpBest">"Top Sellers" display the trending beers</string>
+    <string name="helpGeoloc">"Home Delivery" make it possible to deliver your shopping to the address of your choice</string>
+    <string name="helpSubscribe">"Subcribe" By subscribing, you can enjoy many privileges</string>
+    <string name="HelpShare">"Share" Share it on social network </string>
+    <string name="helpClick">Click to display Availability</string>
+    <string name="helpLongClick">LongClick to add to your shopping cart</string>
+    <string name="helpClickMug">Click on the beer Mug to display your purchases</string>
+    <string name="helpProfile">"Profile", change your personnal information</string>
+    <string name="helpWeb">"Web", access partner website "MySneakersFeed"</string>
+    <string name="helpCamera">You can use the camera to take a profile photo (external feature)</string>
+
+    //Top5
+    <string name="bestText">Here are the best beers of the moment !</string>
+
+    //Subcription
+    <string name="choixAbonnement">Choose your subscription</string>
+    <string name="price1">23 Euros per month</string>
+    <string name="price2">230 Euros per year</string>
+    <string name="textDescripAbo1">8 beers of the world and 1 collector glass each month. Withdrawal by credit card on the 6th of each month</string>
+
+    //Notification
+    <string name="msg_success">Votre commande est en chemin</string>
+
+    //Profile
+    <string name="location_on">Location: On</string>
+
+</resources>

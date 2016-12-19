@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Titre-Bar d'outil
+    <string name="app_name">La tarverne du malt </string>
+    <string name="dispo">Voici les bières disponibles !!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="buttonDate">Règler la date</string>
+    <string name="msg_pay">C\'est l\'heure de payer !</string>
+    <string name="msg_cancel">Annulation </string>
+    <string name="title_second_class">Passer Commande</string>
+    <string name="next" />
+
+    <string name="title_activity_profile">Mon profil</string>
+    <string name="Best">Les meilleures ventes du moment</string>
+    <string name="Geoloc">Livraison chez vous</string>
+    <string name="Subscribe">Abonnement</string>
+    <string name="Share">Partager</string>
+    <string name="noSupply">bière indisponible</string>
+    <string name="supply">bière disponible</string>
+    <string name="noSupply_lg_click">Plus de stock pour cette article. Désolé..</string>
+    <string name="addedMessage">ajouté à votre pannier !</string>
+    <string name="addMessage">Ajouter à votre pannier ?</string>
+    <string name="helpFaq">Aide</string>
+    <string name="helpBest">"Les meilleures ventes du moment" affiche les bières en vogue </string>
+    <string name="helpGeoloc">"Top5" affiche les 5 séries les plus appréciées </string>
+    <string name="helpSubscribe">"Abonnement" affiche les abonnements disponibles </string>
+    <string name="HelpShare">"Proposer une série" vous permet de suggerer une série</string>
+    <string name="helpClick">Clicker pour afficher la disponibilité</string>
+    <string name="helpLongClick">Clicker plus longtemps pour ajouter à mon pannier</string>
+    <string name="helpClickMug">Clicker sur votre pannier pour afficher vos achats</string>
+    <string name="bestText">Voici les 5 séries de la semaine !</string>
+    <string name="title_web_activity">WebView</string>
+    <string name="choixAbonnement">Choisissez votre formule d\'abonnement</string>
+    <string name="price1">23 Euros par mois</string>
+    <string name="price2">230 Euros l\'année</string>
+    <string name="textDescripAbo1">8 bières du monde and 1 verre collector chaque mois. Prélèvement par carte de credit le 6 de chaque mois</string>
+
+    <string name="helpProfile">"Profil", mettez à jour vos informations personnelles</string>
+    <string name="helpWeb">"Web", acceder à notre site partenaire "MySneakersFeed"</string>
+    <string name="helpCamera">Vous pouvez utiliser l\'appareil photo de votre telephone pour prendre une photo de profil</string>
+
+    <string name="location_on">Location: On</string>
+    <string name="msg_success">Votre commande est en chemin</string>
+    <string name="action_search">Search</string>
+
+
+    <string name="drawer_open">ouvrir</string>string>
+    <string name="drawer_close">ferme</string>
+    <string name="button_order">Passer Commande</string>
+    <string name="title_help_activity">Aide</string>
+    <string name="title_top5">Top 5 des bières </string>
+    <string name="title_best">Séries du moment </string>
+    <string name="title_geoloc">Géolocalisation </string>
+
+</resources>
